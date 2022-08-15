@@ -108,7 +108,7 @@ small {
 }
 
 .links-collection > li > * {
-  padding: 120px;
+  padding: 100px;
   display: grid;
 
   justify-content: stretch;
@@ -119,13 +119,14 @@ small {
   text-align: center;
 
   background-color: var(--bgcolor);
+  border: 8px solid var(--bgcolor);
   font-size: 2rem;
 }
 .links-collection > li > :link:hover,
 .links-collection > li > :visited:hover,
 .links-collection > li > :link:focus,
 .links-collection > li > :visited:focus {
-  border: 8px solid white;
+  border-color: white;
 }
 
 .links-collection img {
