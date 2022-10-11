@@ -146,7 +146,7 @@ small {
   --bgcolor: #ff7800;
 }
 .links-collection .blog {
-  --bgcolor: dimgray;
+  --bgcolor: #334444;
 }
 @media (max-width: 767px) {
   .links-collection .blog {
