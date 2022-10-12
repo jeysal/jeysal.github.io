@@ -148,8 +148,3 @@ small {
 .links-collection .blog {
   --bgcolor: #334444;
 }
-@media (max-width: 767px) {
-  .links-collection .blog {
-    display: none;
-  }
-}
