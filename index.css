@@ -139,8 +139,8 @@ small {
 .links-collection .github {
   --bgcolor: #171515;
 }
-.links-collection .twitter {
-  --bgcolor: #1b9df0;
+.links-collection .mastodon {
+  --bgcolor: #6364FF;
 }
 .links-collection .cv {
   --bgcolor: #ff7800;
