@@ -79,9 +79,10 @@ small {
     place-self: center;
 
     aspect-ratio: 1/1;
-    display: grid;
-    place-content: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     border-radius: 100vmax;
   }
@@ -140,7 +141,7 @@ small {
   --bgcolor: #171515;
 }
 .links-collection .mastodon {
-  --bgcolor: #6364FF;
+  --bgcolor: #6364ff;
 }
 .links-collection .cv {
   --bgcolor: #ff7800;
